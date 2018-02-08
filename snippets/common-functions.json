@@ -1,0 +1,18 @@
+{
+  "object.copy": {
+    "prefix": "copy",
+    "body": "${1:object}.copy(${2:source})${3}"
+  },
+  "chain copy": {
+    "prefix": ".copy",
+    "body": ".copy(${1:source})${2}"
+  },
+  "object.clone": {
+    "prefix": "clone",
+    "body": "${1:object}.clone()${2}"
+  },
+  "chain clone": {
+    "prefix": ".clone",
+    "body": ".clone()${1}"
+  }
+}

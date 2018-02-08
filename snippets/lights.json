@@ -1,0 +1,26 @@
+{
+  "THREE.AmbientLight": {
+    "prefix": "ambientlight",
+    "body": "new THREE.AmbientLight(${1:hex})"
+  },
+  "THREE.DirectionalLight": {
+    "prefix": "directionallight",
+    "body": "new THREE.DirectionalLight(${1:hex}, ${2:intensity})"
+  },
+  "THREE.HemisphereLight": {
+    "prefix": "hemispherelight",
+    "body": "new THREE.HemisphereLight(${1:skyColorHex}, ${2:groundColorHex}, ${3:intensity})"
+  },
+  "THREE.LightShadow": {
+    "prefix": "lightshadow",
+    "body": "new THREE.LightShadow(${1:camera})"
+  },
+  "THREE.PointLight": {
+    "prefix": "pointlight",
+    "body": "new THREE.DirectionalLight(${1:hex}, ${2:intensity}, ${3:distance}, ${4:decay})"
+  },
+  "THREE.SpotLight": {
+    "prefix": "spotlight",
+    "body": "new THREE.Spotlight(${1:hex}, ${2:intensity}, ${3:distance}, ${4:angle}, ${5:exponent}, ${6:decay})"
+  }
+}

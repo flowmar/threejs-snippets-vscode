@@ -1,0 +1,32 @@
+{
+  "THREE.BooleanKeyframeTrack": {
+    "prefix": "boolkeytrack",
+    "body":
+      "new THREE.BooleanKeyframeTrack(${1:name}, ${2:track}, ${3:values})$0",
+    "description:": "Create a track of boolean keyframe values."
+  },
+  "THREE.ColorKeyframeTrack": {
+    "prefix": "colorkeytrack",
+    "body":
+      "new THREE.ColorKeyframeTrack(${1:name}, ${2:times}, ${3:values})$0",
+    "description": "A track of keyframe values that represent color changes."
+  },
+  "THREE.NumberKeyframeTrack": {
+    "prefix": "numkeytrack",
+    "body":
+      "new THREE.NumberKeyframeTrack(${1:name}, ${2:times}, ${3:values})$0",
+    "description": "A track of numeric keyframe values."
+  },
+  "THREE.StringKeyframeTrack": {
+    "prefix": "strkeytrack",
+    "body":
+      "new THREE.StringKeyframeTrack(${1:name}, ${2:times}, ${3:values})$0",
+    "description": "A track of string keyframe values."
+  },
+  "THREE.VectorKeyframeTrack": {
+    "prefix": "vectorkeytrack",
+    "body":
+      "new THREE.VectorKeyframeTrack(${1:name}, ${2:times}, ${3:values})$0",
+    "description": "A track of vector keyframe values."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "THREE.CanvasRenderer": {
+    "prefix": "canvasrenderer",
+    "body": "const ${1:renderer} = new THREE.CanvasRenderer(${1:parameters})${0}"
+  },
+  "THREE.WebGLRenderer": {
+    "prefix": "webglrenderer",
+    "body": "const ${1:renderer} = new THREE.WebGLRenderer(${1:parameters})${0}"
+  },
+  "THREE.WebGLRenderTarget": {
+    "prefix": "webglrendertarget",
+    "body": "new THREE.WebGLRenderTarget(${1:width}, ${2:height}, ${3:options})${0}"
+  },
+  "THREE.WebGLRenderTargetCube": {
+    "prefix": "webglrendertargetcube",
+    "body": "new THREE.WebGLRenderTargetCube(${1:width}, ${2:height}, ${3:options})${0}"
+  },
+  "THREE.ShaderChunk": {
+    "prefix": "shaderchunk",
+    "body": "new THREE.ShaderChunk()${0}"
+  },
+  "THREE.ShaderLib": {
+    "prefix": "shaderlib",
+    "body": "new THREE.ShaderLib['${1:shader'}]${0}"
+  },
+  "THREE.UniformsLib": {
+    "prefix": "uniformslib",
+    "body": "new THREE.UniformsLib['${1:shader'}]${0}"
+  },
+  "THREE.UniformsUtils": {
+    "prefix": "uniformsutils",
+    "body": "new THREE.UniformUtils.${0}"
+  },
+  "THREE.LensFlarePlugin": {
+    "prefix": "lensflareplugin",
+    "body": "new THREE.LensFlarePlugin()${0}"
+  },
+  "THREE.SpritePlugin": {
+    "prefix": "spriteplugin",
+    "body": "new THREE.SpritePlugin()${0}"
+  },
+  "THREE.ShadowMapPlugin": {
+    "prefix": "shadowmapplugin",
+    "body": "new THREE.ShadowMapPlugin()${0}"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "THREE.Geometry": {
+    "prefix": "geometry",
+    "body": "new THREE.Geometry()${0}",
+    "description": "Base class for all geometries. Can be used for custom geometries."
+  },
+  "THREE.BoxGeometry": {
+    "prefix": "boxgeometry",
+    "body": "new THREE.BoxGeometry();",
+    "description": "The quadrilateral primitive geometry class."
+  },
+  "THREE.BoxBufferGeometry": {
+    "prefix": "boxbuffergeometry",
+    "body": "new THREE.BoxBufferGeometry();",
+    "description": "A BufferGeometry port of BoxGeometry"
+  },
+  "THREE.CircleGeometry": {
+    "prefix": "circlegeometry",
+    "body": "new THREE.CircleGeometry();",
+    "description": "A simple shape of Euclidean geometry. Constructed from triangular segments that are oriented around a central point."
+  },
+  "THREE.CircleBufferGeometry": {
+    "prefix": "circlebuffergeometry",
+    "body": "new THREE.CircleBufferGeometry();",
+    "description": "A BufferGeometry port of CircleGeometry"
+  },
+  "THREE.ConeGeometry": {
+    "prefix": "conegeometry",
+    "body": "new THREE.ConeGeometry();",
+    "description": "A class for generating cones."
+  },
+  "THREE.ConeBufferGeometry": {
+    "prefix": "conebuffergeometry",
+    "body": "new THREE.ConeBufferGeometry();",
+    "description": "A BufferGeometry port of ConeGeometry."
+  },
+  "THREE.CylinderGeometry": {
+    "prefix": "cylindergeometry",
+    "body": "new THREE.CylinderGeometry();",
+    "description": "A class for generating cylinders."
+  },
+  "THREE.CylinderBufferGeometry": {
+    "prefix": "cylinderbuffergeometry",
+    "body": "new THREE.CylinderBufferGeometry();",
+    "description": "A BufferGeometry port of CylinderGeometry."
+  },
+  "THREE.DodecahedronGeometry": {
+    "prefix": "cylindergeometry",
+    "body": "new THREE.DodecahedronGeometry();",
+    "description": "A class for generating dodecahedrons."
+  },
+  "THREE.DodecahedronBufferGeometry": {
+    "prefix": "dodecahedronbuffergeometry",
+    "body": "new THREE.DodecahedronBufferGeometry();",
+    "description": "A BufferGeometry port of  DodecahedronGeometry."
+  }
+}

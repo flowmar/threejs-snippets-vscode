@@ -1,0 +1,22 @@
+{
+  "THREE.CubeCamera": {
+    "prefix": "cubecam",
+    "body": "const ${1:camera} = new THREE.CubeCamera(${1:near}, ${2:far}, ${3:cubeResolution})$0",
+    "description":"Creates 6 cameras that render to a WebGLRenderTargetCube"
+  },
+  "THREE.OrthographicCamera": {
+    "prefix": "orthocam",
+    "body": "const ${1:camera} = new THREE.OrthographicCamera(${2:left}, ${3:right}, ${4:top}, ${5:bottom}, ${6:near}, ${7:far})$0",
+    "description": "Camera with a projection mode in which the rendered image stays the same size, regardless of its distance from the camera."
+  },
+  "THREE.PerspectiveCamera": {
+    "prefix": "perspectivecam",
+    "body": "const ${1:camera} = new THREE.PerspectiveCamera(${2:fov}, ${3:aspect}, ${4:near}, ${5:far})$0",
+    "description": "Creates a camera designed to mimic the way that the human eye sees."
+  },
+  "THREE.StereoCamera": {
+    "prefix": "stereocam",
+    "body": "const ${1:camera} = new THREE.StereoCamera()$0",
+    "description": "Creates a camera designed to mimic the way that the human eye sees."
+  }
+}

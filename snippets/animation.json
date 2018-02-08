@@ -1,0 +1,26 @@
+{
+  "THREE.AnimationAction": {
+    "prefix": "animaction",
+    "body": "new THREE.AnimationAction(${1:mixer}, ${2:clip}, ${3:localRoot})0$"
+  },
+  "THREE.AnimationClip": {
+    "prefix": "animclip",
+    "body": "new THREE.AnimationClip(${1:name}, ${2:duration}, ${3:tracks})$0"
+  },
+  "THREE.AnimationMixer": {
+    "prefix": "animmixer",
+    "body": "new THREE.AnimationMixer(${1:rootObject})$0"
+  },
+  "THREE.AnimationObjectGroup": {
+    "prefix": "animogroup",
+    "body": "new THREE.AnimationMixer(${1:obj1}, ${2:obj2})$0"
+  },
+  "THREE.KeyframeTrack": {
+    "prefix": "keytrack",
+    "body": "new THREE.KeyframeTrack(${1:name}, ${2:keys})"
+  },
+  "THREE.PropertyBinding": {
+    "prefix": "propbinding",
+    "body": "new THREE.PropertyBinding(${1:rootNode}, ${2:trackName})"
+  }
+}

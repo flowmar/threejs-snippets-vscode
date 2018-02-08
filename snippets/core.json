@@ -1,0 +1,77 @@
+{
+  "THREE.BufferAttribute": {
+    "prefix": "bufferattr",
+    "body": "new THREE.BufferAttribute(${1:array}, ${2:itemSize})",
+    "description":""
+  },
+  "THREE.BufferGeometry": {
+    "prefix": "buffergeo",
+    "body": "new THREE.BufferGeometry()",
+    "description":""
+  },
+  "THREE.Channels": {
+    "prefix": "channels",
+    "body": "new THREE.Channels()",
+    "description":""
+  },
+  "THREE.Clock": {
+    "prefix": "clock",
+    "body": "new THREE.Clock(${1:autoStart})",
+    "description":""
+  },
+  "THREE.DirectGeometry": {
+    "prefix": "directgeometry",
+    "body": "new THREE.DirectGeometry()",
+    "description":""
+  },
+  "THREE.EventDispatcher": {
+    "prefix": "eventdispatch",
+    "body": "new THREE.EventDispatcher()",
+    "description":""
+  },
+  "THREE.Face3": {
+    "prefix": "face3",
+    "body": "new THREE.Face3(${1:vertexA}, ${2:vertexB}, ${3:vertexC}, ${4:normal}, ${5:color}, ${6:materialIndex})",
+    "description":""
+  },
+  "THREE.Geometry": {
+    "prefix": "geometry",
+    "body": "new THREE.Geometry()",
+    "description":""
+  },
+  "THREE.InstancedBufferAttribute": {
+    "prefix": "instbufferattr",
+    "body": "new THREE.InstancedBufferAttribute(${1:array}, ${2:itemSize}, ${3:meshAttribute})",
+    "description":""
+  },
+  "THREE.InstancedBufferGeometry": {
+    "prefix": "instbuffergeo",
+    "body": "new THREE.InstancedBufferGeometry()",
+    "description":""
+  },
+  "THREE.InstancedInterleavedBuffer": {
+    "prefix": "instintbuffer",
+    "body": "new THREE.InstancedInterleavedBuffer(${1:array}, ${2:stride}, ${3:meshPerAttribute})",
+    "description":""
+  },
+  "THREE.InterleavedBuffer": {
+    "prefix": "intbuffer",
+    "body": "new THREE.DirectGeometry(${1:array}, ${2:stride})",
+    "description":""
+  },
+  "THREE.InterleavedBufferAttribute": {
+    "prefix": "intbufferattr",
+    "body": "new THREE.InterleavedBufferAttribute(${1:interleavedBuffer}, ${2:itemSize}, ${3:offset})",
+    "description":""
+  },
+  "THREE.Object3D": {
+    "prefix": "obj3d",
+    "body": "new THREE.Object3D()",
+    "description":""
+  },
+  "THREE.Raycaster": {
+    "prefix": "raycast",
+    "body": "new THREE.Raycaster()",
+    "description":""
+  }
+}

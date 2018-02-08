@@ -1,0 +1,46 @@
+{
+  "THREE.Bone": {
+    "prefix": "bone",
+    "body": "new THREE.Bone(${1:skin})${0}"
+  },
+  "THREE.Group": {
+    "prefix": "group",
+    "body": "new THREE.Group()${0}"
+  },
+  "THREE.LOD": {
+    "prefix": "lod",
+    "body": "new THREE.LOD()${0}"
+  },
+  "THREE.LensFlare": {
+    "prefix": "lensflare",
+    "body": "new THREE.LensFlare(${1:texture}, ${2:size}, ${3:distance}, ${4:blending}, ${5:color})${0}"
+  },
+  "THREE.Line": {
+    "prefix": "line",
+    "body": "new THREE.Line(${1:geometry}, ${2:material}, ${3:mode})${0}"
+  },
+  "THREE.LineSegment": {
+    "prefix": "lineseg",
+    "body": "new THREE.LineSegment(${1:geometry}, ${2:material})${0}"
+  },
+  "THREE.Mesh": {
+    "prefix": "mesh",
+    "body": "new THREE.Mesh(${1:geometry}, ${2:material})${0}"
+  },
+  "THREE.Points": {
+    "prefix": "points",
+    "body": "new THREE.Points(${1:geometry}, ${2:material})${0}"
+  },
+  "THREE.Skeleton": {
+    "prefix": "skeleton",
+    "body": "new THREE.Skeleton(${1:bones}, ${2:boneInverses}, ${3:useVertexTexture})${0}"
+  },
+  "THREE.SkinnedMesh": {
+    "prefix": "skinnedmesh",
+    "body": "new THREE.Group(${1:geometry}, ${2:material}, ${3:useVertexTexture})${0}"
+  },
+  "THREE.Sprite": {
+    "prefix": "sprite",
+    "body": "new THREE.Sprite()${0}"
+  }
+}

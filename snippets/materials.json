@@ -1,0 +1,54 @@
+{
+  "THREE.Material": {
+    "prefix": "mat",
+    "body": "const ${1:material} = new THREE.Material()${0}"
+  },
+  "THREE.LineBasicMaterial": {
+    "prefix": "linebasicmat",
+    "body": "const ${1:material} = new THREE.LineBasicMaterial(${2:parameters})${0}"
+  },
+  "THREE.LineDashedMaterial": {
+    "prefix": "linedashedmat",
+    "body": "const ${1:material} = new THREE.LineDashedMaterial(${2:parameters})${0}"
+  },
+  "THREE.MeshBasicMaterial": {
+    "prefix": "meshbasicmat",
+    "body": "const ${1:material} = new THREE.MeshBasicMaterial(${2:parameters})${0}"
+  },
+  "THREE.MeshDepthMaterial": {
+    "prefix": "meshdepthmat",
+    "body": "const ${1:material} = new THREE.MeshDepthMaterial(${2:parameters})${0}"
+  },
+  "THREE.MeshLambertMaterial": {
+    "prefix": "meshlambertmat",
+    "body": "const ${1:material} = new THREE.MeshLambertMaterial(${2:parameters})${0}"
+  },
+  "THREE.MeshNormalMaterial": {
+    "prefix": "meshnormalmat",
+    "body": "const ${1:material} = new THREE.MeshNormalMaterial(${2:parameters})${0}"
+  },
+  "THREE.MeshPhongMaterial": {
+    "prefix": "meshphongmat",
+    "body": "const ${1:material} = new THREE.MeshPhongMaterial(${2:parameters})${0}"
+  },
+  "THREE.MultiMaterial": {
+    "prefix": "multimat",
+    "body": "const ${1:material} = new THREE.MultiMaterial(${2:materials})${0}"
+  },
+  "THREE.PointsMaterial": {
+    "prefix": "pointsmat",
+    "body": "const ${1:material} = new THREE.PointsMaterial(${2:parameters})${0}"
+  },
+  "THREE.RawShaderMaterial": {
+    "prefix": "rawshadermat",
+    "body": "const ${1:material} = new THREE.RawShaderMaterial(${2:parameters})${0}"
+  },
+  "THREE.ShaderMaterial": {
+    "prefix": "shadermat",
+    "body": "const ${1:material} = new THREE.ShaderMaterial(${2:parameters})${0}"
+  },
+  "THREE.SpriteMaterial": {
+    "prefix": "spritemat",
+    "body": "const ${1:material} = new THREE.SpriteMaterial(${2:parameters})${0}"
+  }
+}

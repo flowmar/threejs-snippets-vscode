@@ -1,0 +1,70 @@
+{
+  "THREE.AnimationLoader": {
+    "prefix": "animloader",
+    "body": "new THREE.AnimationLoader()"
+  },
+  "THREE.BabylonLoader": {
+    "prefix": "babylonloader",
+    "body": "new THREE.BabylonLoader()"
+  },
+  "THREE.BufferGeometryLoader": {
+    "prefix": "buffgeoloader",
+    "body": "new THREE.BufferGeometryLoader()"
+  },
+  "THREE.ColladaLoader": {
+    "prefix": "colladaloader",
+    "body": "new THREE.ColladaLoader()"
+  },
+  "THREE.glTFLoader": {
+    "prefix": "gltfloader",
+    "body": "new THREE.glTFLoader()"
+  },
+  "THREE.ImageLoader": {
+    "prefix": "imageloader",
+    "body": "new THREE.ImageLoader()"
+  },
+  "THREE.JSONLoader": {
+    "prefix": "jsonloader",
+    "body": "new THREE.JSONLoader()"
+  },
+  "THREE.Loader": {
+    "prefix": "loader",
+    "body": "new THREE.Loader()"
+  },
+  "THREE.LoadingManager": {
+    "prefix": "loadmanager",
+    "body": "new THREE.LoadingManager(${1:onLoad}, ${2:onProgress}, ${3:onError})"
+  },
+  "THREE.MaterialLoader": {
+    "prefix": "matloader",
+    "body": "new THREE.MaterialLoader()"
+  },
+  "THREE.ObjectLoader": {
+    "prefix": "objloader",
+    "body": "new THREE.ObjectLoader()"
+  },
+  "THREE.TextureLoader": {
+    "prefix": "textureloader",
+    "body": "new THREE.TextureLoader()"
+  },
+  "THREE.XHRLoader": {
+    "prefix": "xhrloader",
+    "body": "new THREE.XHRLoader()"
+  },
+  "loader.load": {
+    "prefix": "load",
+    "body": "${1:loader}.load({2:url}, ${3:onLoad}, ${4:onProgress}, ${5:onError})"
+  },
+  "chain load": {
+    "prefix": ".load",
+    "body": ".load(${1:url}, ${2:onLoad}, ${3:onProgress}, ${4:onError})"
+  },
+  "loader.setCrossOrigin": {
+    "prefix": "setCrossOrigin",
+    "body": "${1:loader}.setCrossOrigin(${2:value})"
+  },
+  "chain setCrossOrigin": {
+    "prefix": ".setCrossOrigin",
+    "body": ".setCrossOrigin(${1:value})"
+  }
+}

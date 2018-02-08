@@ -1,0 +1,27 @@
+{
+  "THREE.Audio": {
+    "prefix": "audio",
+    "body": "new THREE.Audio(${1:listener})$0",
+    "description": "creates a global audio object."
+  },
+  "THREE.AudioListener": {
+    "prefix": "audiolistener",
+    "body": "new THREE.AudioListener()$0",
+    "description": "creates a global audio object."
+  },
+  "THREE.AudioLoader": {
+    "prefix": "audioloader",
+    "body": "new THREE.AudioLoader()$0",
+    "description": "Loads a sound and sets it as the Audio object's buffer"
+  },
+  "THREE.AudioAnalyser": {
+    "prefix": "audioanalyser",
+    "body": "new THREE.AudioAnalyser( ${1:sound}, ${2:fftSize});$0",
+    "description": "Create an audioAnalyser"
+  },
+  "THREE.PositionalAudio": {
+    "prefix": "positionalaudio",
+    "body": "new THREE.PositionalAudio( ${1:listener});$0",
+    "description": "Loads a sound and sets it as the Audio object's buffer"
+  }
+}

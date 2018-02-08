@@ -1,0 +1,14 @@
+{
+  "THREE.Scene": {
+    "prefix": "scene",
+    "body": "const ${1:scene} = new THREE.Scene()${0}"
+  },
+  "THREE.Fog": {
+    "prefix": "fog",
+    "body": "new THREE.Fog(${1:color}, ${2:near}, ${3:far})${0}"
+  },
+  "THREE.FogExp2": {
+    "prefix": "fogexp2",
+    "body": "new THREE.FogExp2(${1:color}, ${2:density})${0}"
+  }
+}
